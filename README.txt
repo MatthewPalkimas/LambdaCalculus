@@ -2,12 +2,12 @@
 Work of Matthew Palkimas for ECE511 Computability, Complexity, and Algorithms
 
 This language is defined as:
-variable ::= letter{number}
+variable    ::= letter{number}
 abstraction ::= #variable.lambda
 application ::= (lambda lambda)
-lambda ::= variable
-		   |abstraction
-		   |application
+lambda 	    ::= variable
+	   	|abstraction
+	   	|application
 
 Examples to try:
 
